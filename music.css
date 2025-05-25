@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://ap-southeast-2-seek-apac.graphassets.com/AEzBCRO50TYyqbV6XzRDQz/prI4QpkMQVeVSwe0l9ER");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#MusicCard {
+  width: 40vw;
+  height: fit-content;
+  box-shadow: 0px 0px 10px gray;
+  margin: 5rem auto;
+  background-color: rgba(248, 248, 255, 0.466);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#MusicCard img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+#inptrangebox {
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+#inptrange {
+  width: 80%;
+}
+
+#PlayPause {
+  /* border: 1px solid black;   */
+  /* height: 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* margin-top: 1rem; */
+}
+
+#PlayPause img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#PlayPause img:active {
+  transform: scale(0.95) translateY(0.2rem);
+}
+
+#AudioTimes{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
